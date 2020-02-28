@@ -1,0 +1,12 @@
+1. STRUKTURA: Aplikacja windows i biblioteka klas
+2. DANE: SQL i opcjonalnie plik txt
+3. UŻYTKOWNICY: jeden w tym samym czasie w jednej aplikacji
+
+KONCEPTY KLUCZY
+- Email
+- SQL
+- Niestandardowe zdarzenia
+- Obsługa błędów
+- Interfejsy
+- Zamówienia losowe
+- Wiadomości
