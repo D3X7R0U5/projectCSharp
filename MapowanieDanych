@@ -1,0 +1,31 @@
+DRUZYNA
+- CzlonkowieDruzyna(List<Osoba>)
+- NazwaDruzyna(string)
+
+OSOBA
+- Imie (string)
+- Nazwisko(string)
+- AdresEmail(string)
+- NumerTelefonu(string)
+
+TURNIEJ
+- NazwaTurnieju(string)
+- Wpisowe(decimal)
+- DruznaWejsciowa(List<Druzyna>)
+- Nagrody(List<Nagroda>)
+- Rundy(List<List<Pojedynek>>)
+
+NAGRODA
+- NumerMiejsca(int)
+- NazwaMiejsca(string)
+- KwotaNagrody(decimal)
+- NagrodaProcentowa(double)
+
+Pojedynek
+- Wejścia (Lust<WpisDoPojedynku>)
+- Wygrany (Druzyna)
+- RundaPojedynkow(Druzyna)
+
+WPISDOPOJEDYNKU
+- RywalizacjaDruzynowa(Druzyna)
+- PoprzedniWynik(double)
