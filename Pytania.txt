@@ -1,16 +1,44 @@
 1. Ilu będzie graczy w turnieju? To zmienna?
+- Powinna obsługiwać różną ilość graczy
+
 2. Jeśli nie będzie kompletu graczy (np. 3 graczy)?
+- Jeśli liczba graczy będzie inna niż wielokrotność 2 jedna osoba będzie losowo wybrana i pominie pierwszy etap jako wygrana
+
 3. Czy dobieranie graczy będzie losowe?
+- Tak dobieranie graczy będzie losowe
+
 4. Czy powinniśmy zaplanować kiedy gramy?
+- Nie, gry powinny odbywać się wtedy kiedy gracze chcą grać
+
 5. Jeśli gry będą zaplanowane, skąd aplikacja będzie wiedzieć jak zaplanować grę
+- Nie są zaplanowane
+
 6. Jeśli gry nie będa zaplanowane, czy gra w kolejnej rundzie może być zagrana przed zakończeniem wszystkich meczy z poprzedniej runy?
+- Nie, każda runda musi być zakończona przed zaczęciem kolejnej
+
 7. Czy aplikacja musi przetrzymywać dane o wszystkich rundach czy tylko wygranego?
+- Proste przechowowywanie wygrany - 1 przegrany - 0, wyjątkiem mogą być mecze koszykówki
+
 8. Jaki front end muszę zaaplikować? app, webpage etc.?\
+- Aplikacja desktopowa (windowsowska)
+
 9. Gdzie przechowamy dane?
+- MICROSOFT SQL database z możliwością przechowywania w pliku txt 
+
 10. Czy aplikacja będzie zawiarała dane o wygranych, kosztach wstępu etc.?
+- Tak, wygrane mogą być zdefiniowane, nie powinny przekraczać sumy kosztów wstępu. System procentowy byłby dobry.
+
 11. Jaki rodzaj raportowania wyników jest wymagany?
+-   Raportowanie wygranych w każdej rundzie, wygranych nagród do wszystkich uczystników i administratora, wyniki są wyświetlane i mogą być wysłane drogą mailową.
+
 12. Kto może uzupełniać wyniki?
+- Każdy uczystnik korzystający z aplikacji może wypełnić wyniki 
+
 13. Czy będa różne poziomy dostępu? (read only, modify etc.)
+ - Nie, uczestnicy nie mają dostępu do kodu aplikacji, robią wszystko przez email
+
 14. Czy aplikacja powinna powiadamiać o nadchodzących eventach?
+ - Tak, system powinien wysyłać email przed turniejem do uczestników z opisem
+
 15. Czy teamy mogą użyć tej aplikacji?
-16. 
+- Tak ale powinny mieć swoją nazwę i będą czytani przez program jako równi sobie
