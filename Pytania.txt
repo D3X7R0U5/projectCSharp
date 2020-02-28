@@ -1,0 +1,16 @@
+1. Ilu będzie graczy w turnieju? To zmienna?
+2. Jeśli nie będzie kompletu graczy (np. 3 graczy)?
+3. Czy dobieranie graczy będzie losowe?
+4. Czy powinniśmy zaplanować kiedy gramy?
+5. Jeśli gry będą zaplanowane, skąd aplikacja będzie wiedzieć jak zaplanować grę
+6. Jeśli gry nie będa zaplanowane, czy gra w kolejnej rundzie może być zagrana przed zakończeniem wszystkich meczy z poprzedniej runy?
+7. Czy aplikacja musi przetrzymywać dane o wszystkich rundach czy tylko wygranego?
+8. Jaki front end muszę zaaplikować? app, webpage etc.?\
+9. Gdzie przechowamy dane?
+10. Czy aplikacja będzie zawiarała dane o wygranych, kosztach wstępu etc.?
+11. Jaki rodzaj raportowania wyników jest wymagany?
+12. Kto może uzupełniać wyniki?
+13. Czy będa różne poziomy dostępu? (read only, modify etc.)
+14. Czy aplikacja powinna powiadamiać o nadchodzących eventach?
+15. Czy teamy mogą użyć tej aplikacji?
+16. 
